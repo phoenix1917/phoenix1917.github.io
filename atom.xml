@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Qi Shi</title>
   
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://phoenix1917.com/blog/"/>
+  <link href="http://phoenix1917.com/"/>
   <updated>2016-10-25T12:21:37.375Z</updated>
-  <id>http://phoenix1917.com/blog/</id>
+  <id>http://phoenix1917.com/</id>
   
   <author>
     <name>Damon</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://phoenix1917.com/blog/2016/10/25/hello-world/"/>
-    <id>http://phoenix1917.com/blog/2016/10/25/hello-world/</id>
+    <link href="http://phoenix1917.com/2016/10/25/hello-world/"/>
+    <id>http://phoenix1917.com/2016/10/25/hello-world/</id>
     <published>2016-10-25T12:21:37.373Z</published>
     <updated>2016-10-25T12:21:37.375Z</updated>
     
