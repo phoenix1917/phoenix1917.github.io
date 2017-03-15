@@ -46,6 +46,17 @@ Quick">
     <link rel="stylesheet" href="/assets/css/tranquilpeak.css">
     <!--STYLES END-->
     
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-93798300-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
     
 </head>
 
@@ -145,7 +156,7 @@ Quick">
             
                 <li class="sidebar-button">
                     
-                        <a  class="sidebar-button-link open-algolia-search"
+                        <a  class="sidebar-button-link st-search-show-outputs"
                              href="#search"
                             
                         >
@@ -171,19 +182,39 @@ Quick">
         
             <ul class="sidebar-buttons">
             
-        </ul>
-        
-            <ul class="sidebar-buttons">
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link " href="https://github.com/phoenix1917" target="_blank">
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                        <span class="sidebar-button-desc">GitHub</span>
+                    </a>
+            </li>
             
                 <li class="sidebar-button">
                     
-                        <a  class="sidebar-button-link "
-                             href="/atom.xml"
-                            
-                        >
+                        <a  class="sidebar-button-link " href="https://www.facebook.com/profile.php?id=100015490418113" target="_blank">
                     
-                        <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
-                        <span class="sidebar-button-desc">RSS</span>
+                        <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+                        <span class="sidebar-button-desc">Facebook</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link " href="https://www.zhihu.com/people/phoenix-1917" target="_blank">
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-cloud"></i>
+                        <span class="sidebar-button-desc">zhihu</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a  class="sidebar-button-link " href="http://steamcommunity.com/id/phoenix1917/" target="_blank">
+                    
+                        <i class="sidebar-button-icon fa fa-lg fa-steam"></i>
+                        <span class="sidebar-button-desc">steam</span>
                     </a>
             </li>
             
@@ -278,6 +309,12 @@ Quick">
             </a>
         </li>
         
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
         <li class="post-action">
             
                 <a class="post-action-btn btn btn--default" href="#">
@@ -290,6 +327,10 @@ Quick">
 
 
         
+            
+                <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
             
         
     </div>
@@ -348,6 +389,12 @@ Quick">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
         
         <li class="post-action">
             
@@ -462,6 +509,23 @@ Quick">
 <script src="/assets/js/tranquilpeak.js"></script>
 <!--SCRIPTS END-->
 
+    
+        <script>
+             var disqus_config = function () {
+                 this.page.url = 'http://phoenix1917.com/2017/03/15/hello-world/';
+                 
+                    this.page.identifier = '2017/03/15/hello-world/';
+                 
+             };
+            (function() {
+                var d = document, s = d.createElement('script');
+                var disqus_shortname = 'phoenix1917';
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
     
 
 
